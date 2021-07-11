@@ -14,13 +14,10 @@ body {
     font-variant: normal;
     text-transform: none;
     line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
     display: inline-block
 }
 
-
-/* .et-icon-adjustments,
+.et-icon-adjustments,
 .et-icon-alarmclock,
 .et-icon-anchor,
 .et-icon-aperture,
@@ -127,8 +124,6 @@ body {
     font-variant: normal;
     text-transform: none;
     line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
     display: inline-block
 }
 
@@ -530,4 +525,4 @@ body {
 
 .et-icon-dribbble:before {
     content: "\e063"
-} */
+}
