@@ -1,7 +1,6 @@
 body {
-    width: 80%;
+    width: 100%;
     margin: 0;
-    margin-left: 10%;
     padding: 0;
     background: #FFF;
     overflow-x: hidden;
@@ -92,6 +91,7 @@ a:hover {
     bottom: 0;
     left: 0;
     right: 0;
+    ;
 }
 
 .texture-paper::before {
@@ -822,7 +822,7 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere.png");
 }
 
 .bg-presentation {
