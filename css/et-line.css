@@ -6,7 +6,21 @@
     font-style: normal
 }
 
-.et-icon-adjustments,
+body {
+    font-family: et-line;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block
+}
+
+
+/* .et-icon-adjustments,
 .et-icon-alarmclock,
 .et-icon-anchor,
 .et-icon-aperture,
@@ -516,4 +530,4 @@
 
 .et-icon-dribbble:before {
     content: "\e063"
-}
+} */
