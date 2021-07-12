@@ -4098,7 +4098,11 @@ fieldset[disabled] .btn-danger:hover {
     border-radius: 0
 }
 
-.btn-link,
+.btn-link {
+    background-color: transparent;
+    box-shadow: none
+}
+
 .btn-link.active,
 .btn-link:active,
 .btn-link[disabled],
@@ -4114,7 +4118,12 @@ fieldset[disabled] .btn-link {
     border-color: transparent
 }
 
-.btn-link:focus,
+.btn-link:focus {
+    color: #23527c;
+    text-decoration: underline;
+    background-color: transparent
+}
+
 .btn-link:hover {
     color: #23527c;
     text-decoration: underline;
@@ -7353,7 +7362,7 @@ button.close {
     line-height: 1
 }
 
-@media all and (transform-3d) {
+@media all {
     .carousel-inner>.item {
         transition: transform .6s ease-in-out;
         backface-visibility: hidden;
