@@ -167,12 +167,6 @@ html input[disabled] {
     cursor: default
 }
 
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-    padding: 0;
-    border: 0
-}
-
 input {
     line-height: normal
 }
@@ -181,11 +175,6 @@ input[type=checkbox],
 input[type=radio] {
     box-sizing: border-box;
     padding: 0
-}
-
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
-    height: auto
 }
 
 input[type=search] {
@@ -231,7 +220,6 @@ th {
         color: #000 !important;
         text-shadow: none !important;
         background: 0 0 !important;
-        -webkit-box-shadow: none !important;
         box-shadow: none !important
     }
     a,
@@ -310,8 +298,6 @@ th {
     font-style: normal;
     font-weight: 400;
     line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
 }
 
 .glyphicon-asterisk:before {
@@ -1406,7 +1392,6 @@ a:hover {
 
 a:focus {
     outline: thin dotted;
-    outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px
 }
 
@@ -3078,8 +3063,6 @@ label {
 }
 
 input[type=search] {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box
 }
 
@@ -3108,7 +3091,6 @@ input[type=file]:focus,
 input[type=checkbox]:focus,
 input[type=radio]:focus {
     outline: thin dotted;
-    outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px
 }
 
@@ -3142,19 +3124,6 @@ output {
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6)
 }
 
-.form-control::-moz-placeholder {
-    color: #999;
-    opacity: 1
-}
-
-.form-control:-ms-input-placeholder {
-    color: #999
-}
-
-.form-control::-webkit-input-placeholder {
-    color: #999
-}
-
 .form-control[disabled],
 .form-control[readonly],
 fieldset[disabled] .form-control {
@@ -3171,7 +3140,7 @@ textarea.form-control {
     height: auto
 }
 
-@media screen and (-webkit-min-device-pixel-ratio:0) {
+@media screen {
     input[type=date].form-control,
     input[type=time].form-control,
     input[type=datetime-local].form-control,
@@ -3648,7 +3617,6 @@ textarea.input-lg {
 .btn:active:focus,
 .btn:focus {
     outline: thin dotted;
-    outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px
 }
 
@@ -5209,7 +5177,6 @@ textarea.input-group-sm>.input-group-btn>.btn {
         margin-top: 0;
         background-color: transparent;
         border: 0;
-        -webkit-box-shadow: none;
         box-shadow: none
     }
     .navbar-nav .open .dropdown-menu .dropdown-header,
@@ -5692,7 +5659,6 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
     color: #fff;
     cursor: default;
     background-color: #337ab7;
-    border-color: #337ab7
 }
 
 .pagination>.disabled>a,
@@ -6098,24 +6064,6 @@ a.thumbnail:hover {
     color: #843534
 }
 
-@-webkit-keyframes progress-bar-stripes {
-    from {
-        background-position: 40px 0
-    }
-    to {
-        background-position: 0 0
-    }
-}
-
-@-o-keyframes progress-bar-stripes {
-    from {
-        background-position: 40px 0
-    }
-    to {
-        background-position: 0 0
-    }
-}
-
 @keyframes progress-bar-stripes {
     from {
         background-position: 40px 0
@@ -6149,8 +6097,6 @@ a.thumbnail:hover {
 
 .progress-bar-striped,
 .progress-striped .progress-bar {
-    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
-    background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
     background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
     background-size: 40px 40px
 }
@@ -6165,8 +6111,6 @@ a.thumbnail:hover {
 }
 
 .progress-striped .progress-bar-success {
-    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
-    background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
     background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent)
 }
 
@@ -6175,8 +6119,6 @@ a.thumbnail:hover {
 }
 
 .progress-striped .progress-bar-info {
-    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
-    background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
     background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent)
 }
 
@@ -6185,8 +6127,6 @@ a.thumbnail:hover {
 }
 
 .progress-striped .progress-bar-warning {
-    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
-    background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
     background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent)
 }
 
@@ -6195,8 +6135,6 @@ a.thumbnail:hover {
 }
 
 .progress-striped .progress-bar-danger {
-    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
-    background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
     background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent)
 }
 
@@ -7420,8 +7358,6 @@ button.close {
 .carousel-inner>.item {
     position: relative;
     display: none;
-    -webkit-transition: .6s ease-in-out left;
-    -o-transition: .6s ease-in-out left;
     transition: .6s ease-in-out left
 }
 
@@ -7430,8 +7366,7 @@ button.close {
     line-height: 1
 }
 
-@media all and (transform-3d),
-(-webkit-transform-3d) {
+@media all and (transform-3d) {
     .carousel-inner>.item {
         transition: transform .6s ease-in-out;
         backface-visibility: hidden;

@@ -8,7 +8,6 @@
 
 body {
     font-family: et-line;
-    speak: none;
     font-style: normal;
     font-weight: 400;
     font-variant: normal;
@@ -118,7 +117,6 @@ body {
 .et-icon-wallet,
 .et-icon-wine {
     font-family: et-line;
-    speak: none;
     font-style: normal;
     font-weight: 400;
     font-variant: normal;
