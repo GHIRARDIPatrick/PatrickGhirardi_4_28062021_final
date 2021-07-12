@@ -4111,12 +4111,13 @@ fieldset[disabled] .btn-link {
     box-shadow: none
 }
 
-.btn-link,
+
+/* .btn-link,
 .btn-link:active,
 .btn-link:focus,
 .btn-link:hover {
     border-color: transparent
-}
+} */
 
 .btn-link:focus {
     color: #23527c;
