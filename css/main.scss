@@ -328,6 +328,11 @@ a:hover {
     text-align: inherit;
 }
 
+.page-selection {
+    border-top: #F3976C 4px solid;
+    border-bottom: #F3976C 4px solid;
+}
+
 .nav>li a:hover,
 .nav>li a:focus {
     background: transparent;
@@ -533,6 +538,7 @@ a[data-lightbox] {
 
 a[data-lightbox]:hover::before {
     content: "+";
+    padding: 3%;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
     font-size: 32px;
     width: 50px;
@@ -841,13 +847,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -866,8 +872,10 @@ h4 {
         position: relative;
     }
     .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding: env(safe-area-inset-left, 0px);
+        padding: env(safe-area-inset-right, 0px);
+        padding: env(safe-area-inset-top, 0px);
+        padding: env(safe-area-inset-bottom, 0px);
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -876,9 +884,11 @@ h4 {
     }
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
-        padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        // padding: 0 20px;
+        padding: env(safe-area-inset-left, 20px);
+        padding: env(safe-area-inset-right, 20px);
+        padding: env(safe-area-inset-top, 0px);
+        padding: env(safe-area-inset-bottom, 0px);
     }
 }
 
