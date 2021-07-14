@@ -832,6 +832,49 @@ h4 {
   background-image: url("../img/image-de-presentation.png");
 }
 
+.partenaire {
+  width: 70%;
+  margin-left: 15%;
+  padding: 2%;
+  background-color: #FFFFFF;
+  border: solid 2px #F3976C;
+  border-radius: 40%;
+}
+.partenaire-img--2 {
+  padding-top: 10px;
+}
+.partenaire img {
+  float: left;
+  width: 10%;
+  margin-top: 4px;
+}
+.partenaire div {
+  text-align: justify;
+}
+.partenaire h2 {
+  margin-top: -3px;
+  margin-left: 16%;
+}
+.partenaire:hover {
+  background-color: #fdeae2;
+}
+
+@media (max-width: 724px) {
+  .partenaire {
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 20%;
+  }
+
+  .partenaire img {
+    width: 30%;
+  }
+
+  .partenaire h2 {
+    margin-left: 30%;
+    font-size: 19px;
+  }
+}
 @media (max-width: 1024px) {
   .bloc {
     padding-left: 20px;
