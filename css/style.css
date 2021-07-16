@@ -894,7 +894,7 @@ h4 {
     padding-right: 0;
   }
 }
-@media (max-width: 992px) and (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 992px) {
   .navbar .nav {
     max-width: 80%;
   }
@@ -929,10 +929,8 @@ h4 {
   }
 
   .bloc {
-    padding: env(safe-area-inset-left, 0px);
-    padding: env(safe-area-inset-right, 0px);
-    padding: env(safe-area-inset-top, 0px);
-    padding: env(safe-area-inset-bottom, 0px);
+    padding: env(safe-area-inset-left);
+    padding: env(safe-area-inset-rightx);
   }
 
   .bloc-group,
@@ -943,10 +941,9 @@ h4 {
 
   .bloc-fill-screen .fill-bloc-top-edge,
 .bloc-fill-screen .fill-bloc-bottom-edge {
-    padding: env(safe-area-inset-left, 20px);
-    padding: env(safe-area-inset-right, 20px);
-    padding: env(safe-area-inset-top, 0px);
-    padding: env(safe-area-inset-bottom, 0px);
+    padding: 0 20px;
+    padding-left: constant(safe-area-inset-left);
+    padding-right: constant(safe-area-inset-right);
   }
 }
 @media (max-width: 767px) {
