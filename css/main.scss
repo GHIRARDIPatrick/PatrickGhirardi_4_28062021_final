@@ -413,7 +413,7 @@ nav .caret {
     margin: 0 5px;
 }
 
-.dropdown-menu .dropdown-menu {
+.dropdown-menu {
     top: -8px;
     left: 100%;
 }
@@ -873,6 +873,9 @@ h4 {
         font-size: 19px;
     }
 }
+
+
+/* -------------------------------------   MEDIA   ----------------------------- */
 
 @media (max-width: 1024px) {
     .bloc {
