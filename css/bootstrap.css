@@ -17,7 +17,7 @@ html {
 
 body {
     margin: 0;
-    background: url("img/texture-paper.png");
+    background: url("../img/texture-paper.png");
     background-size: 280px 280px;
 }
 
