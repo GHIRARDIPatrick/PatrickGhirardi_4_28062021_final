@@ -746,6 +746,14 @@ h4 {
     color: #FFFFFF!important;
 }
 
+.black {
+    color: black!important;
+}
+
+footer a {
+    color: black;
+}
+
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -782,7 +790,8 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    // color: #F3976C!important;
+    color: white!important;
 }
 
 .tc-white--2 {
@@ -793,6 +802,7 @@ h4 {
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF!important;
+    font-weight: bold!important;
 }
 
 .btn-atomic-tangerine:hover {
