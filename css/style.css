@@ -756,6 +756,12 @@ h4 {
   color: black !important;
 }
 
+.backgnull {
+  background-color: transparent !important;
+  border: transparent !important;
+  border-radius: 0px 0px;
+}
+
 footer a {
   color: black;
 }
