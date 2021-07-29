@@ -803,14 +803,17 @@ footer a {
   opacity: 1;
 }
 
+.tc-tangerine {
+  color: #F3976C !important;
+}
+
 .btn-atomic-tangerine {
-  background: #F3976C;
+  background: #c27956 !important;
   color: #FFFFFF !important;
-  font-weight: bold !important;
 }
 
 .btn-atomic-tangerine:hover {
-  background: #c27956 !important;
+  background: #F3976C !important;
   color: #FFFFFF !important;
 }
 

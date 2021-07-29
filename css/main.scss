@@ -792,6 +792,7 @@ footer a {
 .tc-white {
     // color: #F3976C!important;
     color: white!important;
+    background-color: transparent!important;
 }
 
 .tc-white--2 {
@@ -799,14 +800,17 @@ footer a {
     opacity: 1;
 }
 
+.tc-tangerine {
+    color: #F3976C!important;
+}
+
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #c27956!important;
     color: #FFFFFF!important;
-    font-weight: bold!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #F3976C!important;
     color: #FFFFFF!important;
 }
 
@@ -940,8 +944,10 @@ footer a {
         position: relative;
     }
     .bloc {
-        padding: env(safe-area-inset-left);
-        padding: env(safe-area-inset-right);
+        // padding: env(safe-area-inset-left);
+        // padding: env(safe-area-inset-right);
+        padding-left: 0px;
+        padding-right: 0px;
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -951,8 +957,10 @@ footer a {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding: env(safe-area-inset-left);
-        padding: env(safe-area-inset-right);
+        // padding: env(safe-area-inset-left);
+        // padding: env(safe-area-inset-right);
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }
 
